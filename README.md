@@ -2,7 +2,7 @@
 
 A simple JavaScript Drum Kit that plays sounds when keys are pressed or buttons are clicked.
 
-![Screenshot](./screenshot.png)
+![Screenshot](/Day-01-Drum-Kit/sreenshot.png)
 
 ## 🔑 Features
 
