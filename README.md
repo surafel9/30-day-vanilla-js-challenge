@@ -1,17 +1,22 @@
-# 🥁 Drum Kit
+# 🧠 30-Day Vanilla JavaScript Challenge
 
-A simple JavaScript Drum Kit that plays sounds when keys are pressed or buttons are clicked.
+This repo tracks my journey building 30 small projects using only **HTML**, **CSS**, and **Vanilla JS** — no frameworks, just pure JavaScript.
 
-![Screenshot](/Day-01-Drum-Kit/sreenshot.png)
+---
 
-## 🔑 Features
+## 📅 Projects So Far
 
-- Press keys A,S,D,F,G,H,J,K,L to play different drum sounds.
-- Visual feedback using CSS transitions.
-- Built with HTML, CSS, and JavaScript.
+| Day | Project                                                                                 | Description                                                  |
+| --- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| 01  | [Drum Kit](./Day-01-Drum-Kit)                                                           | Play drum sounds with keyboard events.                       |
+| 02  | [FastFingers - Typing Speed Tester](./Day-02-FastFingers%20-%20Typing%20Speed%20Tester) | Test your typing speed, accuracy, and mistakes in real-time. |
 
-## 🚀 How to Use
+More projects coming soon!
 
-1. Open the `index.html` file in your browser.
-2. Press your keyboard keys or click the buttons on the screen.
-3. Enjoy the beats! 🎶
+---
+
+## 🚀 How to Run
+
+1. Clone the repo:  
+   `git clone https://github.com/surafel9/30-day-vanilla-js-challenge.git`
+2. Open any project folder and launch `index.html` in your browser.
