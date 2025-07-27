@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing speed tester</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>FastFingers</h1>
+    </header>
+    <main class="container">
+      <div id="text-to-type-container">
+        <p id="text-to-type">
+          The quick brown fox jumps over the lazy dog while coding JavaScript at
+          lightning speed
+        </p>
+      </div>
+      <textarea
+        id="input-area"
+        rows="3"
+        placeholder="Start typing..."
+        autofocus
+      ></textarea>
+      <div class="stats">
+        <div class="stat">
+          <p class="label">WPM</p>
+          <p id="wpm" class="value">0</p>
+        </div>
+        <div class="stat">
+          <p class="label">Accuracy</p>
+          <p id="accuracy" class="value">100%</p>
+        </div>
+        <div class="stat">
+          <p class="label">Time</p>
+          <p id="timer" class="value">60s</p>
+        </div>
+      </div>
+      <button id="reset-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4" />
+          <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
+        </svg>
+        Reset
+      </button>
+    </main>
+    <footer>
+      <!-- <p>Built with ❤️ for the 30-Day Vanilla JS Challenge</p> -->
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
