@@ -2,8 +2,8 @@
 
 A simple JavaScript Drum Kit that plays sounds when keys are pressed or buttons are clicked.
 
-![Screenshot](/Day-01-Drum-Kit/sreenshot.png)
 
+ <img src="/Day-01-Drum-Kit/sreenshot.png" width="600">
 ## 🔑 Features
 
 - Press keys A,S,D,F,G,H,J,K,L to play different drum sounds.
