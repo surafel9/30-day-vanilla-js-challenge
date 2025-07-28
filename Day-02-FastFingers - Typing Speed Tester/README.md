@@ -13,8 +13,8 @@ A minimal typing speed tester created for **Day 2** of the 30-Day Vanilla JS Cha
 The app presents a sentence or paragraph to type. As you type, it calculates your typing speed, accuracy, and time taken.
 
 ## Screenshot
+ <img src="./Screenshot%20From%202025-07-28%2012-28-57.png" width="600" alt="Preview of the CSS Variables project">
 
-![FastFingers](./Screenshot%20From%202025-07-28%2012-28-57.png)
 
 ## Usage
 
