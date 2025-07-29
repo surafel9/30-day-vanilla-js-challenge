@@ -10,6 +10,7 @@ This repo tracks my journey building 30 small projects using only **HTML**, **CS
 | --- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | 01  | [Drum Kit](./Day-01-Drum-Kit)                                                           | Play drum sounds with keyboard events.                       |
 | 02  | [FastFingers - Typing Speed Tester](./Day-02-FastFingers%20-%20Typing%20Speed%20Tester) | Test your typing speed, accuracy, and mistakes in real-time. |
+| 03  | [Update CSS Variables with JS](./Day-03-Update%20CSS%20Variables%20with%20JS)           |
 
 More projects coming soon!
 
