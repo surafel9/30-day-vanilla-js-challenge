@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --primary-color: #bb86fc;
+  --text-color: #e0e0e0;
+  --card-bg: #1e1e1e;
+  --body-bg: #121212;
+  --shadow-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--body-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.quote-box {
+  background: var(--card-bg);
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px var(--shadow-color);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+#copy-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+#copy-btn svg {
+  width: 24px;
+  height: 24px;
+  fill: #777;
+  transition: fill 0.3s ease;
+}
+
+#copy-btn:hover svg {
+  fill: var(--primary-color);
+}
+
+.quote-box:hover {
+  transform: translateY(-5px);
+}
+
+.quote-text {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.author {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--primary-color);
+  margin-top: 20px;
+  font-style: italic;
+}
+
+#new-quote-btn {
+  background: var(--primary-color);
+  color: #121212;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 5px 15px rgba(187, 134, 252, 0.2);
+}
+
+#new-quote-btn:hover {
+  background: #a966fa;
+  transform: translateY(-2px);
+}
+
+#new-quote-btn:active {
+  transform: translateY(1px);
+}
