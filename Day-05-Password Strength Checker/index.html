@@ -8,21 +8,30 @@
   </head>
   <body>
     <div class="container">
-      <h1 id="selam">Password Strength Checker</h1>
-      <div class="password-input-container">
-        <input
-          type="password"
-          id="password-input"
-          placeholder="Enter password"
-        />
+      <h2>Password Strength Checker 🔐</h2>
+      <div class="password-wrapper">
+        <input type="password" id="password" placeholder="Enter password" />
+        <span id="togglePassword" class="toggle-password-icon">👁️</span>
       </div>
-      <div class="strength-indicator">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-      <div class="strength-text">WEAK</div>
+      <p id="strength-text">Strength: <span>None</span></p>
+      <ul id="requirements-list">
+        <li data-requirement="length">
+          <span class="icon"></span>
+          <span>Must be 8 or greater than characters</span>
+        </li>
+        <li data-requirement="case">
+          <span class="icon"></span>
+          <span>Must contain small & capital letters</span>
+        </li>
+        <li data-requirement="number">
+          <span class="icon"></span>
+          <span>Must contain a number</span>
+        </li>
+        <li data-requirement="symbol">
+          <span class="icon"></span>
+          <span>Must contain a symbol</span>
+        </li>
+      </ul>
     </div>
     <script src="script.js"></script>
   </body>
