@@ -10,7 +10,6 @@ const requirements = {
   symbol: document.querySelector(`li[data-requirement="symbol"]`),
 };
 
-//
 inputText.addEventListener('input', event => {
   const pass = event.target.value;
   requirements.length.classList.toggle('valid', pass.length > 7);
