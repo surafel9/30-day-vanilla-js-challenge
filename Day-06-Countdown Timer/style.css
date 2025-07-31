@@ -54,10 +54,17 @@ h1 {
   font-weight: 300;
 }
 
-#start-btn {
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+#start-btn,
+#reset-btn {
   padding: 1rem 2.5rem;
   font-size: 1.1rem;
-  background-color: #007bff;
   color: white;
   border: none;
   border-radius: 8px;
@@ -66,11 +73,21 @@ h1 {
   font-weight: 600;
 }
 
-#start-btn:hover {
+#start-btn {
+  background-color: #007bff;
+}
+
+#reset-btn {
+  background-color: #6c757d;
+}
+
+#start-btn:hover,
+#reset-btn:hover {
   transform: translateY(-2px);
 }
 
-#start-btn:active {
+#start-btn:active,
+#reset-btn:active {
   transform: translateY(0);
 }
 
