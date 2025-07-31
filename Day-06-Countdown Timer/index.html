@@ -4,6 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1 id="heading">Countdown Timer</h1>
+    <div class="timer-inputs">
+      <div class="input-group">
+        <input type="number" id="days" placeholder="0" min="0" />
+        <label for="days">Days</label>
+      </div>
+      <div class="input-group">
+        <input type="number" id="hours" placeholder="0" min="0" max="23" />
+        <label for="hours">Hours</label>
+      </div>
+      <div class="input-group">
+        <input type="number" id="minutes" placeholder="0" min="0" max="59" />
+        <label for="minutes">Minutes</label>
+      </div>
+      <div class="input-group">
+        <input type="number" id="seconds" placeholder="0" min="0" max="59" />
+        <label for="seconds">Seconds</label>
+      </div>
+    </div>
+    <button id="start-btn">Start Countdown</button>
+    <script src="script.js"></script>
+  </body>
 </html>
