@@ -64,7 +64,8 @@ h1 {
 #start-btn,
 #reset-btn,
 #pause-btn,
-#resume-btn {
+#resume-btn,
+#start-again-btn {
   padding: 1rem 2.5rem;
   font-size: 1.1rem;
   color: white;
@@ -87,6 +88,10 @@ h1 {
   background-color: #28a745;
 }
 
+#start-again-btn {
+  background-color: #17a2b8;
+}
+
 #reset-btn {
   background-color: #6c757d;
 }
@@ -94,14 +99,16 @@ h1 {
 #start-btn:hover,
 #reset-btn:hover,
 #pause-btn:hover,
-#resume-btn:hover {
+#resume-btn:hover,
+#start-again-btn:hover {
   transform: translateY(-2px);
 }
 
 #start-btn:active,
 #reset-btn:active,
 #pause-btn:active,
-#resume-btn:active {
+#resume-btn:active,
+#start-again-btn:active {
   transform: translateY(0);
 }
 

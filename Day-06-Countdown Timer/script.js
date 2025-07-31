@@ -9,6 +9,7 @@ const startButton = document.querySelector('#start-btn');
 const pauseButton = document.querySelector('#pause-btn');
 const resumeButton = document.querySelector('#resume-btn');
 const resetButton = document.querySelector('#reset-btn');
+const startAgainButton = document.querySelector('#start-again-btn');
 
 let countdown;
 let totalSeconds = 0;
@@ -25,8 +26,10 @@ function startTimer() {
   if (totalSeconds <= 0) return;
 
   heading.textContent = 'Time Remaining';
+
   startButton.classList.add('hidden');
   pauseButton.classList.remove('hidden');
+  startAgainButton.classList.remove('hidden');
 
   runInterval();
 }
@@ -35,6 +38,7 @@ function pauseTimer() {
   clearInterval(countdown);
 
   pauseButton.classList.add('hidden');
+  startAgainButton.classList.add('hidden');
   resumeButton.classList.remove('hidden');
   resetButton.classList.remove('hidden');
 }
@@ -43,7 +47,7 @@ function resumeTimer() {
   resumeButton.classList.add('hidden');
   resetButton.classList.add('hidden');
   pauseButton.classList.remove('hidden');
-
+  startAgainButton.classList.remove('hidden');
   runInterval();
 }
 
@@ -55,8 +59,12 @@ function resetTimer() {
   resumeButton.classList.add('hidden');
   resetButton.classList.add('hidden');
   pauseButton.classList.remove('hidden');
-
+  startAgainButton.classList.remove('hidden');
   runInterval();
+}
+
+function startAgain() {
+  window.location.reload();
 }
 
 function runInterval() {
@@ -68,6 +76,7 @@ function runInterval() {
       pauseButton.classList.add('hidden');
       resumeButton.classList.add('hidden');
       resetButton.classList.add('hidden');
+      startAgainButton.classList.add('hidden');
       startButton.classList.remove('hidden');
       return;
     }
@@ -92,3 +101,4 @@ startButton.addEventListener('click', startTimer);
 pauseButton.addEventListener('click', pauseTimer);
 resumeButton.addEventListener('click', resumeTimer);
 resetButton.addEventListener('click', resetTimer);
+startAgainButton.addEventListener('click', startAgain);
