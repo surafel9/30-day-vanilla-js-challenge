@@ -62,7 +62,9 @@ h1 {
 }
 
 #start-btn,
-#reset-btn {
+#reset-btn,
+#pause-btn,
+#resume-btn {
   padding: 1rem 2.5rem;
   font-size: 1.1rem;
   color: white;
@@ -77,18 +79,34 @@ h1 {
   background-color: #007bff;
 }
 
+#pause-btn {
+  background-color: #ffc107;
+}
+
+#resume-btn {
+  background-color: #28a745;
+}
+
 #reset-btn {
   background-color: #6c757d;
 }
 
 #start-btn:hover,
-#reset-btn:hover {
+#reset-btn:hover,
+#pause-btn:hover,
+#resume-btn:hover {
   transform: translateY(-2px);
 }
 
 #start-btn:active,
-#reset-btn:active {
+#reset-btn:active,
+#pause-btn:active,
+#resume-btn:active {
   transform: translateY(0);
+}
+
+.hidden {
+  display: none;
 }
 
 /* Responsive Design */
