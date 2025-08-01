@@ -12,7 +12,8 @@ This repo tracks my journey building 30 small projects using only **HTML**, **CS
 4. [Random Quote Generator](./Day-04-Random%20Quote%20Generator) – Display random inspirational quotes with the author's name and copy-to-clipboard functionality.
 5. [Password Strength Checker](./Day-05-Password%20Strength%20Checker) – Check password strength in real-time with visual indicators and validation rules.
 6. [Countdown Timer](./Day-06-Countdown%20Timer) –
-   More projects coming soon!
+
+More projects coming soon!
 
 ---
 
