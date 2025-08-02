@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="aboutmusic">
+        <h1 class="artist">Beach House</h1>
+        <h2>♪ Song Space</h2>
+      </div>
+
+      <audio id="my-songs" controls>
+        <source src="songs/Cigarettes-After-Sex-Cry-Lyrics.m4a"
+        type="audio/mpeg"
+      </audio>
+
+      <div class="navigation-controls">
+        <button id="rewind-btn">⏪</button>
+        <button id="forward-btn">⏩</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
