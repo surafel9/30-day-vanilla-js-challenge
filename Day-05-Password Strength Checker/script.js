@@ -1,4 +1,4 @@
-'Use strict';
+'use strict';
 const inputText = document.querySelector('#password');
 const strengthText = document.querySelector('#strength-text');
 const togglePassword = document.querySelector('#togglePassword');
