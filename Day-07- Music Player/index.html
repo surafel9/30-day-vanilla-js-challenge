@@ -6,6 +6,10 @@
     <title>Music Player</title>
     <link rel="stylesheet" href="style.css" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
     />
@@ -18,13 +22,15 @@
       </div>
 
       <audio id="my-songs" controls>
-        <source src="songs/Cigarettes-After-Sex-Cry-Lyrics.m4a"
-        type="audio/mpeg"
+        <source
+          src="songs/Cigarettes-After-Sex-Cry-Lyrics.m4a"
+          type="audio/mpeg"
+        />
       </audio>
-
       <div class="navigation-controls">
-        <button id="rewind-btn">⏪</button>
-        <button id="forward-btn">⏩</button>
+        <button id="rewind-btn"><i class="fas fa-backward"></i></button>
+        <button id="play-pause-btn"><i class="fas fa-play"></i></button>
+        <button id="forward-btn"><i class="fas fa-forward"></i></button>
       </div>
     </div>
     <script src="script.js"></script>

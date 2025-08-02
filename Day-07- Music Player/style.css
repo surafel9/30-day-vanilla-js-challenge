@@ -2,10 +2,6 @@ body {
   font-family: 'Pacifico', cursive;
   background-color: whitesmoke;
 }
-.aboutmusic {
-  padding: 90px;
-  margin-bottom: 45px;
-}
 .container {
   text-align: center;
   width: 375px;
@@ -17,17 +13,21 @@ body {
   box-shadow: 0 10px 30px;
   position: relative;
   color: white;
-  padding-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
 }
 
 h1,
 h2 {
   color: white;
 }
-.navigation-controls {
-  margin-top: 20px;
+audio {
+  margin-bottom: 20px;
 }
-
 .navigation-controls button {
   background: none;
   border: 2px solid white;
