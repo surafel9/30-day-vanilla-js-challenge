@@ -11,8 +11,8 @@ This repo tracks my journey building 30 small projects using only **HTML**, **CS
 3. [Update CSS Variables with JS](./Day-03-Update%20CSS%20Variables%20with%20JS) – Dynamically change CSS variables (like spacing, blur, and colors) using JavaScript.
 4. [Random Quote Generator](./Day-04-Random%20Quote%20Generator) – Display random inspirational quotes with the author's name and copy-to-clipboard functionality.
 5. [Password Strength Checker](./Day-05-Password%20Strength%20Checker) – Check password strength in real-time with visual indicators and validation rules.
-6. [Countdown Timer](./Day-06-Countdown%20Timer) –
-7. [Music Player](./Day-07-%20Music%20Player) –
+6. [Countdown Timer](./Day-06-Countdown%20Timer) – Set a future date and time to display a live countdown in **days, hours, minutes, and seconds**, showing a final message when time is up.
+7. [Music Player](./Day-07-%20Music%20Player) – A simple music player with play, pause, next, and previous buttons, progress bar, and song title display.
 
 More projects coming soon!
 
@@ -20,6 +20,13 @@ More projects coming soon!
 
 ## 🚀 How to Run
 
-1. Clone the repo:  
-   `git clone https://github.com/surafel9/30-day-vanilla-js-challenge.git`
-2. Open any project folder and launch `index.html` in your browser.
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/surafel9/30-day-vanilla-js-challenge.git
+   ```
+2. Open any project folder and launch index.html in your browser.
+   ```
+
+   ```
+
+If you want, I can also help prepare a cool **Day 8 project idea** with some features!
