@@ -26,4 +26,3 @@ More projects coming soon!
    ```
 2. Open any project folder and launch index.html in your browser.
 
-If you want, I can also help prepare a cool **Day 8 project idea** with some features!
