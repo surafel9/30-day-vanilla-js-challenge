@@ -1,0 +1,26 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/run/media/sinux/B88CA5938CA54CA6/Projects/30-day-vanilla-js-challenge/Day-06-Countdown Timer"
+publishOrigin = "default"
+base = "/run/media/sinux/B88CA5938CA54CA6/Projects/30-day-vanilla-js-challenge/Day-06-Countdown Timer"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
