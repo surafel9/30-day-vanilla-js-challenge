@@ -22,3 +22,7 @@ checkButton.addEventListener('click', function () {
     console.log('yeah dawg u got it');
   } else console.log('nah');
 });
+
+reset.addEventListener('click', function () {
+  location.reload();
+});
