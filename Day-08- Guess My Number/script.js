@@ -6,7 +6,7 @@ const reset = document.querySelector('.againBtn');
 const message = document.querySelector('.message');
 const guess = document.querySelector('.guess');
 
-const randomNumber = Math.floor(Math.random() * 2) + 1;
+const randomNumber = Math.floor(Math.random() * 20) + 1;
 console.log(randomNumber);
 
 checkButton.addEventListener('click', function () {
@@ -16,11 +16,13 @@ checkButton.addEventListener('click', function () {
   if (value === randomNumber) {
     guessedNumber.textContent = randomNumber;
     const color = (document.querySelector('body').style.background = '#60b347');
-
-    //correct text
-    text.textContent = 'Correct🎉🎉';
-    console.log('yeah dawg u got it');
-  } else console.log('nah');
+    text.textContent = 'Correct 🎉🎉';
+    message.textContent = 'Correct Number 🎉🎉';
+  } else if (value !== randomNumber) {
+    if (value > randomNumber) {
+      message.textContent = '📈  Too high';
+    } else message.textContent = '📉 Too slow  ';
+  }
 });
 
 reset.addEventListener('click', function () {
