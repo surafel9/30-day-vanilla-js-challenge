@@ -10,4 +10,6 @@ A simple JavaScript game where you guess a number between 1 and 20.
 - Reset button to play again
 
 ![App Screenshot](./01.png)
-![App Screenshot](./01.png)
+<br>
+
+![App Screenshot](./02.png)
