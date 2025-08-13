@@ -21,7 +21,7 @@ checkButton.addEventListener('click', function () {
   } else if (value !== randomNumber) {
     if (value > randomNumber) {
       message.textContent = '📈  Too high';
-    } else message.textContent = '📉 Too slow  ';
+    } else message.textContent = '📉 Too low  ';
   }
 });
 
