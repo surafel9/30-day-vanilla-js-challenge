@@ -1,13 +1,24 @@
 'use strict';
+const text = document.querySelector('#guess-number');
+let guessedNumber = document.querySelector('.number');
+const checkButton = document.querySelector('.checkBtn');
+const reset = document.querySelector('.againBtn');
+const message = document.querySelector('.message');
+const guess = document.querySelector('.guess');
 
-let guessedNumber = document.querySelector('#guess-number');
-const checkButton = document.querySelector('.btn.check');
-const reset = document.querySelector('.btn.again');
+const randomNumber = Math.floor(Math.random() * 2) + 1;
+console.log(randomNumber);
 
-// guessedNumber = [
-//   1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
-// ];
+checkButton.addEventListener('click', function () {
+  const value = Number(guess.value);
+  console.log(value);
 
-const randomNumber = Math.floor(Math.random() * 20) + 1;
-guessedNumber = randomNumber;
-// console.log(guessedNumber);
+  if (value === randomNumber) {
+    guessedNumber.textContent = randomNumber;
+    const color = (document.querySelector('body').style.background = '#60b347');
+
+    //correct text
+    text.textContent = 'Correct🎉🎉';
+    console.log('yeah dawg u got it');
+  } else console.log('nah');
+});
