@@ -13,6 +13,8 @@ This repo tracks my journey building 30 small projects using only **HTML**, **CS
 5. [Password Strength Checker](./Day-05-Password%20Strength%20Checker) – Check password strength in real-time with visual indicators and validation rules.
 6. [Countdown Timer](./Day-06-Countdown%20Timer) – Set a future date and time to display a live countdown in **days, hours, minutes, and seconds**, showing a final message when time is up.
 7. [Music Player](./Day-07-%20Music%20Player) – A simple music player with play, pause, next, and previous buttons, progress bar, and song title display.
+8. [Guess My Number](./Day-08-Guess%20My%20Number) – A simple number guessing game where the player tries to guess a randomly generated number with feedback on too high, too low, or correct guesses.
+
 
 More projects coming soon!
 
