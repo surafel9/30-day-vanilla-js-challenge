@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 body {
+  font-family: 'Caveat', cursive;
   background: #242526;
 }
 h1 {
   color: yellow;
+}
+.words {
+  font-size: 1rem;
+  color: green;
 }
 .container {
   /* width: 100;
