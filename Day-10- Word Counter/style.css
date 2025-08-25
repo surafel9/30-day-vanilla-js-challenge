@@ -13,3 +13,11 @@ h1 {
   align-items: center;
   flex-direction: column;
 }
+.container .textArea textarea {
+  width: 600px;
+  height: 300px;
+  padding: 10px;
+  font-size: 1rem;
+  background: #06402b;
+  color: white;
+}
