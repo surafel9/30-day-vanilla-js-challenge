@@ -5,15 +5,13 @@ const wordInNumber = document.querySelector('.words');
 const counter_button = document.querySelector('#count-btn');
 
 function countWords() {
-  let numWords = 0;
+  const text = inputArea.value;
 
-  for (let i = 0; i < inputArea.length; i++) {
-    let currentCharacter = inputArea[i];
-    if (currentCharacter == ' ') {
-      numWords += 1;
-    }
+  if (text.trim() === '') {
+    wordInNumber.innerHTML = 0;
+    return;
   }
-  numWords += 1;
+  const words = text.trim().split(/\s+/);
 
-  wordInNumber.innerHTML = numWords;
+  wordInNumber.innerHTML = words.length;
 }
